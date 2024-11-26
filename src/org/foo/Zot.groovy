@@ -1,5 +1,5 @@
 package org.foo
 
 def checkOutFrom(repo) {
-    git url: "${repo}"
+    git url: "${repo}", branch: "main"
 }
